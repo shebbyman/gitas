@@ -33,6 +33,12 @@ namespace Core
             return username.Length == 10 ? true : false;
         }
 
+        public static int SomeUselessMethod()
+        {
+            Console.WriteLine("I do nothing like the rest");
+            return 0;
+        }
+
         static void Main(string[] args)
         {
         }
