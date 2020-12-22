@@ -18,6 +18,11 @@ namespace Core
             Console.WriteLine("Bar");
         }
 
+        static void Baz()
+        {
+            Console.WriteLine("Baz");
+        }
+
         static void Main(string[] args)
         {
         }
