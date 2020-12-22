@@ -23,6 +23,11 @@ namespace Core
             Console.WriteLine("Baz");
         }
 
+        public static int Summator(int x, int y)
+        {
+            return x + y;
+        }
+
         static void Main(string[] args)
         {
         }
