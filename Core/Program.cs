@@ -28,6 +28,11 @@ namespace Core
             return x + y;
         }
 
+        public static bool Checker(string username)
+        {
+            return username.Length == 10 ? true : false;
+        }
+
         static void Main(string[] args)
         {
         }
