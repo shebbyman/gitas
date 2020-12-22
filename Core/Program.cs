@@ -8,6 +8,11 @@ namespace Core
 {
     class Program
     {
+        static void Foo()
+        {
+            Console.WriteLine("Foo");
+        }
+
         static void Main(string[] args)
         {
         }
