@@ -13,6 +13,11 @@ namespace Core
             Console.WriteLine("Foo");
         }
 
+        static void Bar()
+        {
+            Console.WriteLine("Bar");
+        }
+
         static void Main(string[] args)
         {
         }
