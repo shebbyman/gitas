@@ -8,6 +8,12 @@ namespace Core
 {
     class Program
     {
+
+        static void LetsMakeAConflict()
+        {
+            // This method should make a conflict with a "wall" branch
+        }
+
         static void Foo()
         {
             Console.WriteLine("Foo");
