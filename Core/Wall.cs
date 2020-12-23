@@ -8,5 +8,9 @@ namespace Core
 {
     class Wall
     {
+        public Wall()
+        {
+            Console.WriteLine("Wall constructor");
+        }
     }
 }
