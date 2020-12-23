@@ -8,6 +8,12 @@ namespace Core
 {
     class Program
     {
+
+        static void ThereShouldBeAProblem()
+        {
+
+        }
+
         static void Foo()
         {
             Console.WriteLine("Foo");
